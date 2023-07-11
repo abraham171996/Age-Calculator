@@ -81,7 +81,7 @@ hr{
     align-items:center ;
     position: relative;
 }
-figure{
+button{
     width: 70px;
     height: 70px;
     background-color: #864CFF;
@@ -91,8 +91,9 @@ figure{
     align-items: center;
     cursor: pointer;
     transition: .5s;
+    border: none;
 }
-figure:hover{
+button:hover{
     background-color: #000000;
     transform: scale(1.05);
 }
@@ -131,7 +132,7 @@ h1{
     .update{
         margin-top: 100px;
     }
-    figure{
+    button{
         position: absolute;
     }
     .result{
@@ -161,7 +162,7 @@ h1{
     p{
         font-size: 36px;
     }
-    figure{
+    button{
         width: 40px;
         height: 40px;
     }
